@@ -15,6 +15,7 @@
 		0639DDF0254B4B8600202FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0639DDEE254B4B8600202FBA /* LaunchScreen.storyboard */; };
 		0639DDFB254B4B8600202FBA /* IOS_SELFHELPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DDFA254B4B8600202FBA /* IOS_SELFHELPTests.swift */; };
 		0639DE06254B4B8600202FBA /* IOS_SELFHELPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DE05254B4B8600202FBA /* IOS_SELFHELPUITests.swift */; };
+		0639DE1A254B5CD900202FBA /* ThemeButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DE19254B5CD900202FBA /* ThemeButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0639DE01254B4B8600202FBA /* IOS_SELFHELPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_SELFHELPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0639DE05254B4B8600202FBA /* IOS_SELFHELPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_SELFHELPUITests.swift; sourceTree = "<group>"; };
 		0639DE07254B4B8600202FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0639DE19254B5CD900202FBA /* ThemeButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +105,14 @@
 				0639DDE5254B4B8500202FBA /* SceneDelegate.swift */,
 				0639DDE7254B4B8500202FBA /* ViewController.swift */,
 				0639DDE9254B4B8500202FBA /* Main.storyboard */,
+				0639DE19254B5CD900202FBA /* ThemeButtonScreen.swift */,
 				0639DDEC254B4B8600202FBA /* Assets.xcassets */,
 				0639DDEE254B4B8600202FBA /* LaunchScreen.storyboard */,
 				0639DDF1254B4B8600202FBA /* Info.plist */,
 			);
 			path = IOS_SELFHELP;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		0639DDF9254B4B8600202FBA /* IOS_SELFHELPTests */ = {
 			isa = PBXGroup;
@@ -259,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0639DDE8254B4B8500202FBA /* ViewController.swift in Sources */,
+				0639DE1A254B5CD900202FBA /* ThemeButtonScreen.swift in Sources */,
 				0639DDE4254B4B8500202FBA /* AppDelegate.swift in Sources */,
 				0639DDE6254B4B8500202FBA /* SceneDelegate.swift in Sources */,
 			);
