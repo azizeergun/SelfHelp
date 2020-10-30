@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="kON-qI-v4H">
-                                <rect key="frame" x="77" y="187" width="260" height="300"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="kON-qI-v4H">
+                                <rect key="frame" x="77" y="298" width="260" height="300"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LcT-9t-RCe">
                                         <rect key="frame" x="0.0" y="0.0" width="260" height="30"/>
@@ -63,6 +63,8 @@
                                     </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="Gt1-1r-ADt"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="b7N-jr-PC9"/>
                                     <constraint firstAttribute="width" constant="260" id="kPi-Yy-Slw"/>
                                     <constraint firstAttribute="height" constant="300" id="q3T-Kk-D2e"/>
                                 </constraints>
@@ -70,6 +72,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="L0B-q7-b7L"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kON-qI-v4H" firstAttribute="centerY" secondItem="b4v-F8-v3L" secondAttribute="centerY" id="t5o-1A-KkI"/>
+                            <constraint firstItem="kON-qI-v4H" firstAttribute="centerX" secondItem="b4v-F8-v3L" secondAttribute="centerX" id="vfU-Vb-OjM"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
