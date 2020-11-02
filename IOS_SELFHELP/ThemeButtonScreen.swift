@@ -16,7 +16,7 @@ class ThemeButtonScreen: UIViewController {
     }
     
     @IBAction func MentalHealthButton(_ sender: UIButton) {
-        Onderverdeling_MentalHealth()
+     
     }
     
     @IBAction func AssaultButton(_ sender: UIButton) {

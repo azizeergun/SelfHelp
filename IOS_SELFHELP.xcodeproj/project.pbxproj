@@ -16,7 +16,7 @@
 		0639DDFB254B4B8600202FBA /* IOS_SELFHELPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DDFA254B4B8600202FBA /* IOS_SELFHELPTests.swift */; };
 		0639DE06254B4B8600202FBA /* IOS_SELFHELPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DE05254B4B8600202FBA /* IOS_SELFHELPUITests.swift */; };
 		0639DE1A254B5CD900202FBA /* ThemeButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DE19254B5CD900202FBA /* ThemeButtonScreen.swift */; };
-		0646778425504C7700AB2D60 /* Onderverdeling_MentalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646778325504C7700AB2D60 /* Onderverdeling_MentalHealth.swift */; };
+		06BCF04225505DDC00AC854A /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BCF04125505DDC00AC854A /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		0639DE05254B4B8600202FBA /* IOS_SELFHELPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_SELFHELPUITests.swift; sourceTree = "<group>"; };
 		0639DE07254B4B8600202FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0639DE19254B5CD900202FBA /* ThemeButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeButtonScreen.swift; sourceTree = "<group>"; };
-		0646778325504C7700AB2D60 /* Onderverdeling_MentalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onderverdeling_MentalHealth.swift; sourceTree = "<group>"; };
+		06BCF04125505DDC00AC854A /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 				0639DDEC254B4B8600202FBA /* Assets.xcassets */,
 				0639DDEE254B4B8600202FBA /* LaunchScreen.storyboard */,
 				0639DDF1254B4B8600202FBA /* Info.plist */,
-				0646778325504C7700AB2D60 /* Onderverdeling_MentalHealth.swift */,
+				06BCF04125505DDC00AC854A /* MyCollectionViewCell.swift */,
 			);
 			path = IOS_SELFHELP;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0639DDE8254B4B8500202FBA /* ViewController.swift in Sources */,
-				0646778425504C7700AB2D60 /* Onderverdeling_MentalHealth.swift in Sources */,
+				06BCF04225505DDC00AC854A /* MyCollectionViewCell.swift in Sources */,
 				0639DE1A254B5CD900202FBA /* ThemeButtonScreen.swift in Sources */,
 				0639DDE4254B4B8500202FBA /* AppDelegate.swift in Sources */,
 				0639DDE6254B4B8500202FBA /* SceneDelegate.swift in Sources */,
