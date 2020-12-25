@@ -1,0 +1,6 @@
+framework module Pods_IOS_SELFHELP_IOS_SELFHELPUITests {
+  umbrella header "Pods-IOS_SELFHELP-IOS_SELFHELPUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
