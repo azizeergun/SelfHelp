@@ -7,16 +7,24 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
-
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var btnSignUp: UIButton!
+    @IBOutlet weak var btnLogIn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        // dfdf
     }
     
-    
+    func setUpElements(){
+        
+       
+        Utilities.styleFilledButton(btnSignUp)
+        Utilities.styleFilledButton(btnLogIn)
 
 
+    }
 }
 

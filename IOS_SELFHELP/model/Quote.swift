@@ -7,14 +7,14 @@
 
 import UIKit
 
-class Quote: UIView {
+class Quote {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    var id: String?
+    var quote: String?
+    
+    init(id:String?,quote:String?){
+        self.id = id
+        self.quote = quote
     }
-    */
 
 }

@@ -7,6 +7,7 @@
 
 import UIKit
 
-class Quote: NSObject {
+class Quote {
 
+    
 }
