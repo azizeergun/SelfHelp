@@ -29,8 +29,11 @@ class TabBarController: UIViewController {
             
         print("Value: \(value)")
             
-           // self.quotesList.removeAll()
-          //  for quotes in snapshot.children.allObjects as
+           /* self.quotesList.removeAll()
+            for quotes in snapshot.children.allObjects as![Snapshot]{
+                let quoteObject = quotes.value as? [String: AnyObject]
+                let quotee = quoteObject?[""]
+            }*/
         })
      
         
