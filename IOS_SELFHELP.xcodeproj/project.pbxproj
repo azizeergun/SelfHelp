@@ -24,6 +24,9 @@
 		0644D38225966F2800876E15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0644D38125966F2800876E15 /* GoogleService-Info.plist */; };
 		0644D40325968FC700876E15 /* TableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644D40225968FC700876E15 /* TableViewCellController.swift */; };
 		0644D4082596904200876E15 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644D4072596904200876E15 /* Quote.swift */; };
+		06FE9BF12597D9A1000484A4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE9BF02597D9A1000484A4 /* Image.swift */; };
+		06FE9BF62597DC51000484A4 /* imageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE9BF52597DC51000484A4 /* imageLayout.swift */; };
+		06FE9C3B2597EAB4000484A4 /* VentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE9C3A2597EAB4000484A4 /* VentViewController.swift */; };
 		982C1042D9A141934E27ACE4 /* Pods_IOS_SELFHELP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D24A58FCCFE951F0DF75AF /* Pods_IOS_SELFHELP.framework */; };
 		B0D19BFB278C37F4C10F0D41 /* Pods_IOS_SELFHELPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAD7C91FE36C6AA18B33325 /* Pods_IOS_SELFHELPTests.framework */; };
 		E247F0B32BF32F4DDEC15D64 /* Pods_IOS_SELFHELP_IOS_SELFHELPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39276DD2D26168645A3CA133 /* Pods_IOS_SELFHELP_IOS_SELFHELPUITests.framework */; };
@@ -70,6 +73,9 @@
 		0644D38125966F2800876E15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0644D40225968FC700876E15 /* TableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellController.swift; sourceTree = "<group>"; };
 		0644D4072596904200876E15 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		06FE9BF02597D9A1000484A4 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		06FE9BF52597DC51000484A4 /* imageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageLayout.swift; sourceTree = "<group>"; };
+		06FE9C3A2597EAB4000484A4 /* VentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentViewController.swift; sourceTree = "<group>"; };
 		0B4DC2D71CF1CCDC34750C28 /* Pods-IOS_SELFHELP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_SELFHELP.debug.xcconfig"; path = "Target Support Files/Pods-IOS_SELFHELP/Pods-IOS_SELFHELP.debug.xcconfig"; sourceTree = "<group>"; };
 		39276DD2D26168645A3CA133 /* Pods_IOS_SELFHELP_IOS_SELFHELPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_SELFHELP_IOS_SELFHELPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D24A58FCCFE951F0DF75AF /* Pods_IOS_SELFHELP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_SELFHELP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				0644D4072596904200876E15 /* Quote.swift */,
+				06FE9BF02597D9A1000484A4 /* Image.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -184,6 +191,7 @@
 				0644D32125965FA300876E15 /* RegisterViewController.swift */,
 				0644D36225966AB500876E15 /* TabBarController.swift */,
 				0644D40225968FC700876E15 /* TableViewCellController.swift */,
+				06FE9C3A2597EAB4000484A4 /* VentViewController.swift */,
 			);
 			path = "view Controller";
 			sourceTree = "<group>";
@@ -193,6 +201,7 @@
 			children = (
 				0644D3282596657F00876E15 /* Constants.swift */,
 				0644D3272596657D00876E15 /* Utilities.swift */,
+				06FE9BF52597DC51000484A4 /* imageLayout.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -462,14 +471,17 @@
 				0644D31D25965F8F00876E15 /* LoginViewController.swift in Sources */,
 				0644D31525965F7600876E15 /* QuotesTableViewController.swift in Sources */,
 				0644D40325968FC700876E15 /* TableViewCellController.swift in Sources */,
+				06FE9BF62597DC51000484A4 /* imageLayout.swift in Sources */,
 				0644D32225965FA300876E15 /* RegisterViewController.swift in Sources */,
 				0644D4082596904200876E15 /* Quote.swift in Sources */,
 				0644D36325966AB500876E15 /* TabBarController.swift in Sources */,
+				06FE9BF12597D9A1000484A4 /* Image.swift in Sources */,
 				0639DDE8254B4B8500202FBA /* ViewController.swift in Sources */,
 				0639DDE4254B4B8500202FBA /* AppDelegate.swift in Sources */,
 				0644D3292596657F00876E15 /* Utilities.swift in Sources */,
 				0639DDE6254B4B8500202FBA /* SceneDelegate.swift in Sources */,
 				0644D32A2596657F00876E15 /* Constants.swift in Sources */,
+				06FE9C3B2597EAB4000484A4 /* VentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

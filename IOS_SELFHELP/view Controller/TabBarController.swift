@@ -20,6 +20,8 @@ class TabBarController: UIViewController, UITableViewDelegate, UITableViewDataSo
         quote = quotesList[indexPath.row]
         cell.lblQuote.text = quote.quote
         
+        
+        
         return cell
     }
     
@@ -30,11 +32,17 @@ class TabBarController: UIViewController, UITableViewDelegate, UITableViewDataSo
     
     var quotesList = [Quote]()
     var ref : DatabaseReference!
+    var Selected = -1
+    var isCollapse = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         Utilities.styleFilledButton(btnVoegToe)
         Utilities.styleTextField(txtQuote)
+        viewQuotes.rowHeight = UITableView.automaticDimension
+        
+        
+        
         ref = Database.database(url: "https://selfhelp-dfa6f-default-rtdb.europe-west1.firebasedatabase.app/").reference().child("quotes")
         
         ref.observe(DataEventType.value, with: {snapshot in
@@ -72,6 +80,7 @@ class TabBarController: UIViewController, UITableViewDelegate, UITableViewDataSo
     }
     @IBAction func voegToe(_ sender: Any) {
         addQuote()
+        txtQuote.text?.removeAll()
     }
     
 }

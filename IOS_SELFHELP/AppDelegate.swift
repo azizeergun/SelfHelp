@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         UITabBar.appearance().tintColor = UIColor.init(red: 255/255, green: 158/255, blue: 186/255, alpha: 1)
         UITabBar.appearance().barTintColor = .none
+       // UITableViewCell.appearance().isSelected = 
         return true
     }
 
