@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0616082C259E67A4001DFFCE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0616082B259E67A4001DFFCE /* CollectionViewCell.swift */; };
+		06160831259E699C001DFFCE /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06160830259E699C001DFFCE /* CollectionViewController.swift */; };
+		0616083F259E6FD8001DFFCE /* bal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0616083E259E6FD8001DFFCE /* bal.png */; };
+		06160844259E6FDD001DFFCE /* halsey.png in Resources */ = {isa = PBXBuildFile; fileRef = 06160843259E6FDD001DFFCE /* halsey.png */; };
+		06160849259E6FE8001DFFCE /* vakantie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06160848259E6FE8001DFFCE /* vakantie.jpg */; };
+		0616084E259E7015001DFFCE /* drie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0616084D259E7015001DFFCE /* drie.jpg */; };
+		06160853259E701B001DFFCE /* fearless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06160852259E701B001DFFCE /* fearless.jpg */; };
+		06160858259E7022001DFFCE /* art.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06160857259E7022001DFFCE /* art.jpg */; };
+		0616085D259E7029001DFFCE /* zusjes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0616085C259E7029001DFFCE /* zusjes.jpg */; };
 		0639DDE4254B4B8500202FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DDE3254B4B8500202FBA /* AppDelegate.swift */; };
 		0639DDE6254B4B8500202FBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DDE5254B4B8500202FBA /* SceneDelegate.swift */; };
 		0639DDE8254B4B8500202FBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DDE7254B4B8500202FBA /* ViewController.swift */; };
@@ -50,6 +59,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0616082B259E67A4001DFFCE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		06160830259E699C001DFFCE /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		0616083E259E6FD8001DFFCE /* bal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bal.png; sourceTree = "<group>"; };
+		06160843259E6FDD001DFFCE /* halsey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halsey.png; sourceTree = "<group>"; };
+		06160848259E6FE8001DFFCE /* vakantie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vakantie.jpg; sourceTree = "<group>"; };
+		0616084D259E7015001DFFCE /* drie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drie.jpg; sourceTree = "<group>"; };
+		06160852259E701B001DFFCE /* fearless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fearless.jpg; sourceTree = "<group>"; };
+		06160857259E7022001DFFCE /* art.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = art.jpg; sourceTree = "<group>"; };
+		0616085C259E7029001DFFCE /* zusjes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zusjes.jpg; sourceTree = "<group>"; };
 		0639DDE0254B4B8500202FBA /* IOS_SELFHELP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_SELFHELP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0639DDE3254B4B8500202FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0639DDE5254B4B8500202FBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +133,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06160835259E6FA8001DFFCE /* foto's */ = {
+			isa = PBXGroup;
+			children = (
+				06160843259E6FDD001DFFCE /* halsey.png */,
+				06160848259E6FE8001DFFCE /* vakantie.jpg */,
+				0616084D259E7015001DFFCE /* drie.jpg */,
+				0616085C259E7029001DFFCE /* zusjes.jpg */,
+				06160852259E701B001DFFCE /* fearless.jpg */,
+				06160857259E7022001DFFCE /* art.jpg */,
+				0616083E259E6FD8001DFFCE /* bal.png */,
+			);
+			path = "foto's";
+			sourceTree = "<group>";
+		};
 		0639DDD7254B4B8500202FBA = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +172,7 @@
 		0639DDE2254B4B8500202FBA /* IOS_SELFHELP */ = {
 			isa = PBXGroup;
 			children = (
+				06160835259E6FA8001DFFCE /* foto's */,
 				0644D38125966F2800876E15 /* GoogleService-Info.plist */,
 				0644D3262596653D00876E15 /* Helpers */,
 				0644D2F62596577800876E15 /* view Controller */,
@@ -192,6 +225,8 @@
 				0644D36225966AB500876E15 /* TabBarController.swift */,
 				0644D40225968FC700876E15 /* TableViewCellController.swift */,
 				06FE9C3A2597EAB4000484A4 /* VentViewController.swift */,
+				0616082B259E67A4001DFFCE /* CollectionViewCell.swift */,
+				06160830259E699C001DFFCE /* CollectionViewController.swift */,
 			);
 			path = "view Controller";
 			sourceTree = "<group>";
@@ -339,7 +374,14 @@
 			files = (
 				0639DDF0254B4B8600202FBA /* LaunchScreen.storyboard in Resources */,
 				0644D38225966F2800876E15 /* GoogleService-Info.plist in Resources */,
+				06160849259E6FE8001DFFCE /* vakantie.jpg in Resources */,
+				0616083F259E6FD8001DFFCE /* bal.png in Resources */,
+				06160844259E6FDD001DFFCE /* halsey.png in Resources */,
 				0639DDED254B4B8600202FBA /* Assets.xcassets in Resources */,
+				06160853259E701B001DFFCE /* fearless.jpg in Resources */,
+				06160858259E7022001DFFCE /* art.jpg in Resources */,
+				0616085D259E7029001DFFCE /* zusjes.jpg in Resources */,
+				0616084E259E7015001DFFCE /* drie.jpg in Resources */,
 				0639DDEB254B4B8500202FBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +514,9 @@
 				0644D31525965F7600876E15 /* QuotesTableViewController.swift in Sources */,
 				0644D40325968FC700876E15 /* TableViewCellController.swift in Sources */,
 				06FE9BF62597DC51000484A4 /* imageLayout.swift in Sources */,
+				06160831259E699C001DFFCE /* CollectionViewController.swift in Sources */,
 				0644D32225965FA300876E15 /* RegisterViewController.swift in Sources */,
+				0616082C259E67A4001DFFCE /* CollectionViewCell.swift in Sources */,
 				0644D4082596904200876E15 /* Quote.swift in Sources */,
 				0644D36325966AB500876E15 /* TabBarController.swift in Sources */,
 				06FE9BF12597D9A1000484A4 /* Image.swift in Sources */,

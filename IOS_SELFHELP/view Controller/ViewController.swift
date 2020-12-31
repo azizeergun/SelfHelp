@@ -9,14 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var btnSignUp: UIButton!
-    @IBOutlet weak var btnLogIn: UIButton!
+   @IBOutlet weak var btnSignUp: UIButton!
+   @IBOutlet weak var btnLogIn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpElements()
         // Do any additional setup after loading the view.
-       // dfdf
     }
     
     func setUpElements(){
