@@ -12,15 +12,17 @@ private let reuseIdentifier = "Cell"
 class CollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
    
     @IBOutlet weak var colView: UICollectionView!
-    var imgData: [String] = ["halsey","vakantie","bal","drie","zusjes","fearless","art"]
-    var Images: [String] = ["halsey.png","vakantie.jpg","bal.png","drie.jpg","zusjes.jpg","fearless.jpg","art.jpg"]
+    var imgData: [String] = ["halsey","vakantie","bal","budapest","buda","fearless","art","girona","parachute","papa","me"]
+    var Images: [String] = ["halsey.png","vakantie.jpg","bal.png","budapest.jpg","buda.jpg","fearless.jpg","art.jpg","girona.jpg","parachute.jpg","fotoooo.jpg","me.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: 120, height: 120)
-        layout.minimumLineSpacing = 10
-                  layout.minimumInteritemSpacing = 10
+        layout.minimumLineSpacing = 6
+        layout.minimumInteritemSpacing = 6
+       // let cellwidth = self.view.frame.width/2
+       // layout.itemSize = CGSize(width:cellwidth, height: 240)
        // let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
         //view.addSubview(colView)
         colView.collectionViewLayout = layout

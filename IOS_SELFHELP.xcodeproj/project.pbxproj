@@ -12,10 +12,8 @@
 		0616083F259E6FD8001DFFCE /* bal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0616083E259E6FD8001DFFCE /* bal.png */; };
 		06160844259E6FDD001DFFCE /* halsey.png in Resources */ = {isa = PBXBuildFile; fileRef = 06160843259E6FDD001DFFCE /* halsey.png */; };
 		06160849259E6FE8001DFFCE /* vakantie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06160848259E6FE8001DFFCE /* vakantie.jpg */; };
-		0616084E259E7015001DFFCE /* drie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0616084D259E7015001DFFCE /* drie.jpg */; };
 		06160853259E701B001DFFCE /* fearless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06160852259E701B001DFFCE /* fearless.jpg */; };
 		06160858259E7022001DFFCE /* art.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06160857259E7022001DFFCE /* art.jpg */; };
-		0616085D259E7029001DFFCE /* zusjes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0616085C259E7029001DFFCE /* zusjes.jpg */; };
 		0639DDE4254B4B8500202FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DDE3254B4B8500202FBA /* AppDelegate.swift */; };
 		0639DDE6254B4B8500202FBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DDE5254B4B8500202FBA /* SceneDelegate.swift */; };
 		0639DDE8254B4B8500202FBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639DDE7254B4B8500202FBA /* ViewController.swift */; };
@@ -33,6 +31,13 @@
 		0644D38225966F2800876E15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0644D38125966F2800876E15 /* GoogleService-Info.plist */; };
 		0644D40325968FC700876E15 /* TableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644D40225968FC700876E15 /* TableViewCellController.swift */; };
 		0644D4082596904200876E15 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644D4072596904200876E15 /* Quote.swift */; };
+		06CBFB8425A9148000A690F3 /* buda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06CBFB8325A9147F00A690F3 /* buda.jpg */; };
+		06D2015F25A91630007F431D /* budapest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06D2015E25A91630007F431D /* budapest.jpg */; };
+		06D2016425A9175D007F431D /* girona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06D2016325A9175D007F431D /* girona.jpg */; };
+		06D2016925A91767007F431D /* parachute.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06D2016825A91767007F431D /* parachute.jpg */; };
+		06D2016E25A91783007F431D /* disney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06D2016D25A91783007F431D /* disney.jpg */; };
+		06D2018225A91C62007F431D /* fotoooo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06D2018125A91C62007F431D /* fotoooo.jpg */; };
+		06D2018725A9241F007F431D /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D2018625A9241F007F431D /* me.png */; };
 		06FE9BF12597D9A1000484A4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE9BF02597D9A1000484A4 /* Image.swift */; };
 		06FE9BF62597DC51000484A4 /* imageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE9BF52597DC51000484A4 /* imageLayout.swift */; };
 		06FE9C3B2597EAB4000484A4 /* VentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE9C3A2597EAB4000484A4 /* VentViewController.swift */; };
@@ -64,10 +69,9 @@
 		0616083E259E6FD8001DFFCE /* bal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bal.png; sourceTree = "<group>"; };
 		06160843259E6FDD001DFFCE /* halsey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halsey.png; sourceTree = "<group>"; };
 		06160848259E6FE8001DFFCE /* vakantie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vakantie.jpg; sourceTree = "<group>"; };
-		0616084D259E7015001DFFCE /* drie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drie.jpg; sourceTree = "<group>"; };
 		06160852259E701B001DFFCE /* fearless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fearless.jpg; sourceTree = "<group>"; };
 		06160857259E7022001DFFCE /* art.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = art.jpg; sourceTree = "<group>"; };
-		0616085C259E7029001DFFCE /* zusjes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zusjes.jpg; sourceTree = "<group>"; };
+		061FC75725A911C400CCC1B8 /* seba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seba.png; sourceTree = "<group>"; };
 		0639DDE0254B4B8500202FBA /* IOS_SELFHELP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_SELFHELP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0639DDE3254B4B8500202FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0639DDE5254B4B8500202FBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,13 @@
 		0644D38125966F2800876E15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0644D40225968FC700876E15 /* TableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellController.swift; sourceTree = "<group>"; };
 		0644D4072596904200876E15 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		06CBFB8325A9147F00A690F3 /* buda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = buda.jpg; path = ../../../../../../fotooooIOS/buda.jpg; sourceTree = "<group>"; };
+		06D2015E25A91630007F431D /* budapest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = budapest.jpg; sourceTree = "<group>"; };
+		06D2016325A9175D007F431D /* girona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girona.jpg; sourceTree = "<group>"; };
+		06D2016825A91767007F431D /* parachute.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parachute.jpg; sourceTree = "<group>"; };
+		06D2016D25A91783007F431D /* disney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disney.jpg; sourceTree = "<group>"; };
+		06D2018125A91C62007F431D /* fotoooo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fotoooo.jpg; sourceTree = "<group>"; };
+		06D2018625A9241F007F431D /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
 		06FE9BF02597D9A1000484A4 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		06FE9BF52597DC51000484A4 /* imageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageLayout.swift; sourceTree = "<group>"; };
 		06FE9C3A2597EAB4000484A4 /* VentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentViewController.swift; sourceTree = "<group>"; };
@@ -136,10 +147,16 @@
 		06160835259E6FA8001DFFCE /* foto's */ = {
 			isa = PBXGroup;
 			children = (
+				06D2018125A91C62007F431D /* fotoooo.jpg */,
+				06D2015E25A91630007F431D /* budapest.jpg */,
+				06CBFB8325A9147F00A690F3 /* buda.jpg */,
+				061FC75725A911C400CCC1B8 /* seba.png */,
 				06160843259E6FDD001DFFCE /* halsey.png */,
+				06D2016325A9175D007F431D /* girona.jpg */,
 				06160848259E6FE8001DFFCE /* vakantie.jpg */,
-				0616084D259E7015001DFFCE /* drie.jpg */,
-				0616085C259E7029001DFFCE /* zusjes.jpg */,
+				06D2018625A9241F007F431D /* me.png */,
+				06D2016D25A91783007F431D /* disney.jpg */,
+				06D2016825A91767007F431D /* parachute.jpg */,
 				06160852259E701B001DFFCE /* fearless.jpg */,
 				06160857259E7022001DFFCE /* art.jpg */,
 				0616083E259E6FD8001DFFCE /* bal.png */,
@@ -373,16 +390,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0639DDF0254B4B8600202FBA /* LaunchScreen.storyboard in Resources */,
+				06D2016425A9175D007F431D /* girona.jpg in Resources */,
 				0644D38225966F2800876E15 /* GoogleService-Info.plist in Resources */,
 				06160849259E6FE8001DFFCE /* vakantie.jpg in Resources */,
+				06D2016E25A91783007F431D /* disney.jpg in Resources */,
 				0616083F259E6FD8001DFFCE /* bal.png in Resources */,
 				06160844259E6FDD001DFFCE /* halsey.png in Resources */,
 				0639DDED254B4B8600202FBA /* Assets.xcassets in Resources */,
 				06160853259E701B001DFFCE /* fearless.jpg in Resources */,
 				06160858259E7022001DFFCE /* art.jpg in Resources */,
-				0616085D259E7029001DFFCE /* zusjes.jpg in Resources */,
-				0616084E259E7015001DFFCE /* drie.jpg in Resources */,
+				06D2016925A91767007F431D /* parachute.jpg in Resources */,
+				06D2018725A9241F007F431D /* me.png in Resources */,
+				06D2015F25A91630007F431D /* budapest.jpg in Resources */,
 				0639DDEB254B4B8500202FBA /* Main.storyboard in Resources */,
+				06D2018225A91C62007F431D /* fotoooo.jpg in Resources */,
+				06CBFB8425A9148000A690F3 /* buda.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
