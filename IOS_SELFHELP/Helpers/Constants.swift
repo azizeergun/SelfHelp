@@ -1,9 +1,8 @@
 //
 //  Constants.swift
-//  CustomLoginDemo
+//  IOS_SELFHELP
 //
-//  Created by Christopher Ching on 2019-07-23.
-//  Copyright © 2019 Christopher Ching. All rights reserved.
+//  Created by Azize Ergun on 25/12/2020.
 //
 
 import Foundation

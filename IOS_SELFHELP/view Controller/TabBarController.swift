@@ -8,7 +8,12 @@
 import UIKit
 import Firebase
 
+protocol TabBarControllerDelegate{
+    func Change(_ quote: Quote)
+}
 class TabBarController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    var delegate: TabBarControllerDelegate?
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return quotesList.count
     }
@@ -19,8 +24,6 @@ class TabBarController: UIViewController, UITableViewDelegate, UITableViewDataSo
         let quote: Quote
         quote = quotesList[indexPath.row]
         cell.lblQuote.text = quote.quote
-        
-        
         
         return cell
     }
@@ -64,19 +67,16 @@ class TabBarController: UIViewController, UITableViewDelegate, UITableViewDataSo
             }
             self.viewQuotes.reloadData()
         })
-            
-       
-     
-        
     }
 
     func addQuote(){
-        
+      
         let key = ref.childByAutoId().key
         let quote = ["id":key, "quote": txtQuote.text! as String
         ]
         self.ref.child(key!).setValue(quote)
-        
+        let quoteobj = Quote(id: key, quote: txtQuote.text)
+        delegate?.Change(quoteobj)
     }
     @IBAction func voegToe(_ sender: Any) {
         addQuote()
